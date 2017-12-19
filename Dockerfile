@@ -18,3 +18,4 @@ RUN sleep 200000
 
 WORKDIR		/cpuminer-multi
 ENTRYPOINT	["./cpuminer"]
+
